@@ -16,4 +16,5 @@ public class Student {
     private Long studentNo; // need map by name explicitly and type implicitly;
     private double bursaryAmount; // map by name implicitly but nested
     private String creds; // map by name explicitly but nested
+    private Long referenceId;
 }

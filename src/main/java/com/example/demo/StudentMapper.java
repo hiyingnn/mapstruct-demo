@@ -12,6 +12,7 @@ public interface StudentMapper {
     @Mapping(target="student", source=".")
     @Mapping(target="credentials", source="creds")
     @Mapping(target="personType", constant = "SCHOLAR")
+    @Mapping(target="score", source="student")
     Scholar toScholar(Student student);
 
     @InheritInverseConfiguration

@@ -17,6 +17,7 @@ public class MapperTest {
                 .bursaryAmount(3113)
                 .studentNo(7L)
                 .creds("Is a new student but hardworking")
+               .referenceId(1L)
                 .build();
 
         Scholar scholar = studentMapper.toScholar(student);

@@ -18,4 +18,5 @@ public class Scholar extends Person {
     private double bursaryAmount;
     private Student student; //for audit
     private String credentials;
+    private Score score;
 }
