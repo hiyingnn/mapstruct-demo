@@ -17,13 +17,13 @@ public class MapperTest {
                 .bursaryAmount(3113)
                 .studentNo(7L)
                 .creds("Is a new student but hardworking")
-               .referenceId(1L)
+               .referenceId(4L)
                 .build();
 
         Scholar scholar = studentMapper.toScholar(student);
         System.out.println(scholar);
 
-        Student inverseStudent = studentMapper.toStudent(scholar);
-        System.out.println(inverseStudent);
+//        Student inverseStudent = studentMapper.toStudent(scholar);
+//        System.out.println(inverseStudent);
     }
 }
