@@ -1,0 +1,20 @@
+package com.example.demo.mapping;
+
+import lombok.Builder;
+import lombok.Data;
+
+import java.util.List;
+
+@Data
+@Builder
+public class DTO {
+    String string;
+    List<String> list;
+    enum Enum {
+        A,
+        B
+    }
+    Enum anEnum;
+
+    NestedDTO nested;
+}
